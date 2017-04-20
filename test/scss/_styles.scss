@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+
+.effet1{
+  font-family: 'Tangerine', cursive;
+  font-size: 80px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+  animation: type 10s steps(120, end);
+}
+
+@keyframes type{
+  from { width: 0; }
+}
